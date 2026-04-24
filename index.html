@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labh Upadhyay | Creative Innovator</title>
+    <meta name="description" content="Portfolio of Labh Upadhyay, B.Tech CSE AI/ML">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-effects">
+        <canvas id="bg-canvas"></canvas>
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <!-- Magnetic Hover Cursor Overlay -->
+    <nav class="glass-nav">
+        <div class="logo">LABH<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="page-link active-nav magnetic-target">Home</a></li>
+            <li><a href="#about" class="page-link magnetic-target">About</a></li>
+            <li><a href="#skills" class="page-link magnetic-target">Skills</a></li>
+            <li><a href="#projects" class="page-link magnetic-target">Projects</a></li>
+            <li><a href="#education" class="page-link magnetic-target">Education</a></li>
+            <li><a href="#certificates" class="page-link magnetic-target">Certificates</a></li>
+            <li><a href="#contact" class="page-link magnetic-target">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-container">
+        <!-- Home Section -->
+        <section id="home" class="page-section active-section hero">
+            <div class="hero-content">
+                <h1 class="gradient-text glitch" data-text="Hi, I'm Labh Upadhyay">Hi, I'm Labh Upadhyay</h1>
+                <h2 class="subtitle">An Aspiring <span id="typed-text"></span><span class="cursor-blink"></span></h2>
+                <div class="expanded-intro">
+                    <p style="margin-bottom: 15px; color: var(--text-muted); font-size: 1.1rem; line-height: 1.6;">Greetings! I possess a relentless curiosity for how technology shapes our future canvas.</p>
+                    <p style="color: var(--text-muted); line-height: 1.6;">I am deeply passionate about diving into complex code, debugging challenging structural problems, and building highly intelligent AI environments that leave a lasting impact. I thrive on bridging the gap between steadfast computational logic and boundless human creativity.</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary-btn page-link magnetic-target">Contact Me</a>
+                    <a href="#about" class="btn secondary-btn page-link magnetic-target">About Me</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="image-wrapper magnetic-target" id="profileWrapper">
+                    <img src="IMG-20250725-WA0001.jpg" id="profileImage" alt="Labh Upadhyay">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="page-section section">
+            <div class="glass-card section-card">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-card" style="font-size: 1.1rem; line-height: 1.8; color: var(--text-muted);">
+                    <p>Hello! I am <strong style="color: var(--text);">Labh Upadhyay</strong>, a tech enthusiast proudly residing in the vibrant tech hub of Gurugram. My journey in technology is driven by a profound fascination with Artificial Intelligence and cognitive computing.</p>
+                    <br>
+                    <p>Currently, I am pursuing my <strong style="color: var(--text);">B.Tech in Computer Science Engineering</strong>, exclusively specializing in <strong style="color: var(--text);">Artificial Intelligence and Machine Learning</strong> in association with Xebia, from <strong style="color: var(--text);">Manav Rachna University</strong>. My core academic foundation started at DPS Maruti Kunj, where I built a solid analytical mindset that I carry with me to solve modern problems today.</p>
+                    <br>
+                    <p>I don't just focus on textbook concepts; I am highly proactive in building tangible, scalable projects. Troubleshooting and identifying intricate bugs gives me an immense thrill. Whether it's crafting resilient logic architectures in Python, C++, or Java, or weaving complex AI data pipelines, I approach every single challenge as an opportunity to innovate and elevate my skill set. Welcome to my professional digital space!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="page-section section">
+            <h2 class="section-title">Skills & <span>Languages</span></h2>
+            <div class="skills-grid">
+                <div class="glass-card skill-card magnetic-target">
+                    <i class="devicon-python-plain colored"></i>
+                    <span>Python</span>
+                </div>
+                <div class="glass-card skill-card magnetic-target">
+                    <i class="devicon-c-plain colored"></i>
+                    <span>C</span>
+                </div>
+                <div class="glass-card skill-card magnetic-target">
+                    <i class="devicon-cplusplus-plain colored"></i>
+                    <span>C++</span>
+                </div>
+                <div class="glass-card skill-card magnetic-target">
+                    <i class="devicon-java-plain colored"></i>
+                    <span>Java</span>
+                </div>
+                <div class="glass-card skill-card magnetic-target">
+                    <i class="fa-solid fa-code" style="color: var(--color1);"></i>
+                    <span>DSA</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="page-section section">
+            <h2 class="section-title">Innovative <span>Projects</span></h2>
+            <div class="projects-grid">
+                <div class="glass-card project-card magnetic-target">
+                    <div class="project-icon"><i class="fa-solid fa-seedling"></i></div>
+                    <h3>HOW AI HELPS FARMER</h3>
+                    <p style="color: var(--text-muted); margin-top: 15px;">An exploratory technical project demonstrating the application of Artificial Intelligence in agriculture to optimize crop yields, predict environmental changes, and improve overall farming efficiency globally.</p>
+                </div>
+                <div class="glass-card project-card magnetic-target">
+                    <div class="project-icon"><i class="fa-solid fa-tower-cell"></i></div>
+                    <h3>AISENSEFARM</h3>
+                    <p style="color: var(--text-muted); margin-top: 15px;">A state-of-the-art smart farming architecture utilizing IoT sensor data combined with machine learning techniques to provide farmers with real-time agricultural insights and automated responses.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="page-section section">
+            <h2 class="section-title">Education <span>Journey</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-card timeline-content">
+                        <h3>B.Tech CSE - AI & ML</h3>
+                        <h4>Manav Rachna University (Associated with Xebia)</h4>
+                        <span class="date">Present</span>
+                        <p style="color: var(--text-muted); font-size: 1rem; margin-top: 15px;">Pursuing undergraduate degree with specialized studies in Artificial Intelligence and Machine Learning algorithms.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-card timeline-content">
+                        <h3>Higher Secondary Schooling</h3>
+                        <h4>DPS Maruti Kunj</h4>
+                        <span class="date">Completed 2025</span>
+                        <p style="color: var(--text-muted); font-size: 1rem; margin-top: 15px;">Completed higher secondary education building strong logical paradigms in science and computer sciences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="page-section section">
+            <h2 class="section-title">My <span>Certificates</span></h2>
+            <div class="cert-grid" id="certGrid">
+                <div class="glass-card cert-card">
+                    <i class="devicon-python-plain colored" style="font-size: 3.5rem; margin-bottom: 20px; filter: drop-shadow(0 0 15px rgba(212,175,55,0.4));"></i>
+                    <h3>Fundamentals of Python</h3>
+                    <a href="fundamentals of python.pdf" target="_blank" class="btn primary-btn magnetic-target" style="margin-top: 20px; display: inline-block;">View Certificate</a>
+                </div>
+                <div class="glass-card cert-card">
+                    <i class="fa-solid fa-database" style="font-size: 3.5rem; color: var(--color2); margin-bottom: 20px; filter: drop-shadow(0 0 15px rgba(26,26,26,0.3));"></i>
+                    <h3>Python Numpy and Panda</h3>
+                    <a href="python numpy and panda.pdf" target="_blank" class="btn primary-btn magnetic-target" style="margin-top: 20px; display: inline-block;">View Certificate</a>
+                </div>
+                <div class="glass-card cert-card">
+                    <i class="fa-solid fa-chart-line" style="font-size: 3.5rem; color: var(--color1); margin-bottom: 20px; filter: drop-shadow(0 0 15px rgba(212,175,55,0.4));"></i>
+                    <h3>Python Matplotlib</h3>
+                    <a href="python matplotib.pdf" target="_blank" class="btn primary-btn magnetic-target" style="margin-top: 20px; display: inline-block;">View Certificate</a>
+                </div>
+                <div class="glass-card cert-card">
+                    <i class="fa-solid fa-code" style="font-size: 3.5rem; color: var(--color3); margin-bottom: 20px; filter: drop-shadow(0 0 15px rgba(212,175,55,0.4));"></i>
+                    <h3>VAC (Data Structures Algorithms in Python)</h3>
+                    <a href="VAC.pdf" target="_blank" class="btn primary-btn magnetic-target" style="margin-top: 20px; display: inline-block;">View Certificate</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="page-section section">
+            <h2 class="section-title">Reach <span>Out</span></h2>
+            <div class="contact-card-wrapper">
+                <div class="glass-card contact-card">
+                    <div class="contact-item magnetic-target">
+                        <div class="contact-icon-box"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:labhupadhyay123@gmail.com">labhupadhyay123@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item magnetic-target">
+                        <div class="contact-icon-box" style="color: #E1306C; text-shadow: 0 0 10px rgba(225,48,108,0.5);"><i class="fa-brands fa-instagram"></i></div>
+                        <div>
+                            <h4>Instagram</h4>
+                            <a href="https://www.instagram.com/labhpandat00?igsh=YmZwZ3M3bGNjNgo3" target="_blank">@labhpandat00</a>
+                        </div>
+                    </div>
+                    <div class="contact-item magnetic-target">
+                        <div class="contact-icon-box" style="color: #0077b5; text-shadow: 0 0 10px rgba(0,119,181,0.5);"><i class="fa-brands fa-linkedin"></i></div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/labh-upadhyay-54a809375?utm_souce=share_via&utm_content=profile&utm_medium=member_android" target="_blank">Labh Upadhyay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal features removed -->
+
+    <footer>
+        <p>&copy; 2026 Labh Upadhyay. Crafted with AI & Creativity.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
